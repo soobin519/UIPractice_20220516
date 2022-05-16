@@ -100,13 +100,28 @@
         android:text="(선택) 마케팅 약관에 동의합니다"
         android:visibility="gone"/>
 
-    <Button
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FF0000"
-        android:textAllCaps="false"
-        android:text="Sign Up"/>
+        android:orientation="horizontal">
 
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Back"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Sign Up"/>
+    </LinearLayout>
 
 
 </LinearLayout>
